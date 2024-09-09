@@ -18,6 +18,6 @@ public class Receita {
 	
 	@Override
 	public String toString() {
-		
+		return String.format("Valor %s. Data: %s. Fonte: %s", valor, data, fonte);
 	}
 }

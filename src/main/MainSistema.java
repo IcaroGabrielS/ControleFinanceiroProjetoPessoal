@@ -15,11 +15,17 @@ public class MainSistema {
 	}
 	
 	public String subMenuR() {
-		
+		return "adicionar receita";
+		//return "listar receitas";
 	}
 	
 	public String subMenuD() {
-		
+		return "adicionar despesa atual";
+		//adicionar despesas (Crédito)
+		//adicionar despesas (Débito)
+		//listar despesas (Crédito)
+		//listar despesas (Débito)
+		//listar despesas (Totais)
 	}
 
 }

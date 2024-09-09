@@ -5,6 +5,7 @@ public class MainSistema {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		SisController sistema = new SisController();
 	}
 	
 	public String menuPrincipal(Scanner sc) {

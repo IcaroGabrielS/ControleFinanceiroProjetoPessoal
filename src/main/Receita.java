@@ -10,4 +10,14 @@ public class Receita {
 		this.fonte = fonte;
 		this.data = data;
 	}
+	
+	public double getValor() {
+		double valorLocal = Double.parseDouble(this.valor);
+		return valorLocal;
+	}
+	
+	@Override
+	public String toString() {
+		
+	}
 }
